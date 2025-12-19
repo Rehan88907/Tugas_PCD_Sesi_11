@@ -42,7 +42,9 @@ Kondisi ini membuat basic thresholding sangat sensitif terhadap pemilihan nilai 
 Hasil ini menunjukkan bahwa:
 
 ✅ Basic thresholding sangat bergantung pada pemilihan nilai threshold
+
 ❌ Tidak adaptif terhadap distribusi intensitas citra
+
 ❌ Kurang robust untuk citra hasil edge detection tanpa normalisasi
 
 Dengan kata lain, metode threshold sederhana tidak selalu langsung berhasil pada citra Sobel tanpa penyesuaian tambahan.
